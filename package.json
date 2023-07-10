@@ -8,8 +8,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "scripts": {
-    "start":"nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
